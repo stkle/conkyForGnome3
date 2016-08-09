@@ -6,7 +6,7 @@
 <p>You need to install 3 paquages :</p>
 <h6>$ sudo apt-get install conky-all hddtemp xsensors</h6>
 <p></p>
-<p>$ sudo dpkg-reconfigure hddtemp</p>
+<h6>$ sudo dpkg-reconfigure hddtemp</h6>
 <p>Say "Yes" for all requests.</p>
 <p></p>
 <p>Download the script and move it under ~/.conkyrc:</p>
