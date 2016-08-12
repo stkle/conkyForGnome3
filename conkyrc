@@ -95,20 +95,20 @@ ${color white}$font${top_mem name 6}${alignr}${top mem 6} %
 
 # NETWORK
 # ${font Arial:bold:size=8}${color grey74}NETWORK ${color grey74}${hr 2}
-# $font${color white}IP on wlan0 $alignr ${addr wlan0}
-# Down $alignr ${downspeed wlan0} kb/s
-# Up $alignr ${upspeed wlan0} kb/s
-# Downloaded: $alignr  ${totaldown wlan0}
-# Uploaded: $alignr  ${totalup wlan0}
-# ${color white}${downspeedgraph wlan0 32,150 ff0000 0000ff} ${color white}${upspeedgraph wlan0 32,150 0000ff ff0000}
+# $font${color white}IP on wlp2s0 $alignr ${addr wlp2s0}
+# Down $alignr ${downspeed wlp2s0} kb/s
+# Up $alignr ${upspeed wlp2s0} kb/s
+# Downloaded: $alignr  ${totaldown wlp2s0}
+# Uploaded: $alignr  ${totalup wlp2s0}
+# ${color white}${downspeedgraph wlp2s0 32,150 ff0000 0000ff} ${color white}${upspeedgraph wlp2s0 32,150 0000ff ff0000}
 
-${font Arial:bold:size=8}${color grey74}NETWORK wlan0${color grey74}${hr 2}
-$font${color white}IP on wlan0 $alignr ${addr wlan0}
-Down $alignr ${downspeed wlan0} kb/s
-Up $alignr ${upspeed wlan0} kb/s
-Downloaded: $alignr  ${totaldown wlan0}
-Uploaded: $alignr  ${totalup wlan0}
-${color white}${downspeedgraph wlan0 32,150 ff0000 0000ff} ${color white}${upspeedgraph wlan0 32,150 0000ff ff0000}
+${font Arial:bold:size=8}${color grey74}NETWORK wlp2s0${color grey74}${hr 2}
+$font${color white}IP on wlp2s0 $alignr ${addr wlp2s0}
+Down $alignr ${downspeed wlp2s0} kb/s
+Up $alignr ${upspeed wlp2s0} kb/s
+Downloaded: $alignr  ${totaldown wlp2s0}
+Uploaded: $alignr  ${totalup wlp2s0}
+${color white}${downspeedgraph wlp2s0 32,150 ff0000 0000ff} ${color white}${upspeedgraph wlp2s0 32,150 0000ff ff0000}
 
 
 # CONNEXIONS
