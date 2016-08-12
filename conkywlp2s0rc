@@ -75,7 +75,7 @@ ${font}${color white}CPU: ${hwmon 0 temp 1}°C  $alignr CPU0   ${cpu cpu0}%   ${
 CPU1   ${cpu cpu1}%    ${cpubar 8,60 cpu1}  $alignr CPU2   ${cpu cpu2}%   ${cpubar 8,60 cpu2}
 CPU3   ${cpu cpu3}%    ${cpubar 8,60 cpu3}  $alignr CPU4   ${cpu cpu4}%   ${cpubar 8,60 cpu4}
 #CPU5  ${cpu cpu5}%    ${cpubar cpu5}
-${voffset -12}
+${voffset -10}
 $font${color white}MEM $mem / $memmax $memperc% $membar
 
 # HDD
